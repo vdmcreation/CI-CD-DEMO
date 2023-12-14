@@ -10,7 +10,6 @@ public class CICDController {
     @GetMapping("/message")
     public String getMessage() {
         System.out.println("hello");
-        System.out.println("hello");
         return "Hello, ci-cd demo testing succeed";
     }
 }
