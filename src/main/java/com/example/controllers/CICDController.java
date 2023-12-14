@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CICDController {
     @GetMapping("/message")
     public String getMessage() {
-        return "Hello, ci-cd demo testing success";
+        return "Hello, ci-cd demo testing succeed";
     }
 }
